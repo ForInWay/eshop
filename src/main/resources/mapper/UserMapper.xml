@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.morgan.eshop.mapper.UserMapper">
+
+    <select id="findUserList" resultType="com.morgan.eshop.entity.User">
+      SELECT
+        id,
+        name
+      FROM sys_user
+    </select>
+</mapper>
