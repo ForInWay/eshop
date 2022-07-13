@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 /**
- * @Description: 监听器配置类
+ * @Description: 监听器相关配置类
  * @Date:2020/8/22
  * @User:morgan.b.chen
  */
